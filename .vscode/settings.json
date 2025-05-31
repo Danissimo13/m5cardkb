@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "format": "cpp",
+        "numbers": "cpp",
+        "optional": "cpp",
+        "variant": "cpp",
+        "cstring": "cpp"
+    }
+}

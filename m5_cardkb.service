@@ -1,0 +1,15 @@
+[Unit]
+Description=CardKB Driver
+After=multi-user.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+#User=root
+Type=idle
+ExecStart=$HOME/Peripherals/m5cardkb/m5_cardkb
+Restart=on-failure
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target
