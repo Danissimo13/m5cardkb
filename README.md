@@ -13,7 +13,9 @@ CardKB pins: [here](https://docs.m5stack.com/en/unit/cardkb)
 
 ## 3. Enable i2c
 The cardKB communicates over i2c, make sure this is enabled on your SBC. You can find a tutorial on how to do so:
+
 RaspberryPI: [here](https://www.raspberrypi-spy.co.uk/2014/11/enabling-the-i2c-interface-on-the-raspberry-pi/)
+
 Khadas: [here](https://docs.khadas.com/products/sbc/common/applications/gpio/i2c)
 
 ## 4. Install Dependencies
